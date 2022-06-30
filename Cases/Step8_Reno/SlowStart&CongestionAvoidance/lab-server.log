@@ -1,0 +1,340 @@
+Local IP is 10.0.0.1
+Remote IP is 10.0.0.2
+Using local addr: s
+Using remote addr: c
+Saving packets to lab-server.pcap
+TCP state transitioned from CLOSED to LISTEN
+Listening on 80 port
+RX: 45 00 00 2C 00 00 00 00 40 06 66 CA 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 C8 00 00 00 00 60 02 28 00 F7 9B 00 00 02 04 00 05
+Remote MSS is 5
+TX: 45 00 00 2C 00 00 00 00 40 06 66 CA 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F8 9E AB 16 C9 60 12 28 00 41 E7 00 00 02 04 00 05
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+TCP state transitioned from CLOSED to SYN_RCVD
+|* Retransmission *|
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 C9 9E AB 16 F9 50 10 28 00 53 F5 00 00
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+TCP state transitioned from SYN_RCVD to ESTABLISHED
+Got new TCP connection: fd=1
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 C9 9E AB 16 F9 50 10 28 00 89 8A 00 00 47 45 54 20 2F
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 16 CE 50 10 27 FB 53 F5 00 00
+Read 'GET /' from tcp
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 CE 9E AB 16 F9 50 10 28 00 0E 17 00 00 69 6E 64 65 78
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 16 D3 50 10 27 FB 53 F0 00 00
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 D3 9E AB 16 F9 50 10 28 00 45 10 00 00 2E 68 74 6D 6C
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 16 D8 50 10 27 F6 53 F0 00 00
+Read 'index.html' from tcp
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 D8 9E AB 16 F9 50 10 28 00 8F 44 00 00 20 48 54 54 50
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 16 DD 50 10 27 FB 53 E6 00 00
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 DD 9E AB 16 F9 50 10 28 00 E9 79 00 00 2F 31 2E 31 0D
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 16 E2 50 10 27 F6 53 E6 00 00
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 E2 9E AB 16 F9 50 10 28 00 81 32 00 00 0A 41 63 63 65
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 16 E7 50 10 27 F1 53 E6 00 00
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 E7 9E AB 16 F9 50 10 28 00 7F 3D 00 00 70 74 3A 20 2A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 16 EC 50 10 27 EC 53 E6 00 00
+Read ' HTTP/1.1
+Accept: *' from tcp
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 EC 9E AB 16 F9 50 10 28 00 CF 98 00 00 2F 2A 0D 0A 48
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 16 F1 50 10 27 FB 53 D2 00 00
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 F1 9E AB 16 F9 50 10 28 00 50 1A 00 00 6F 73 74 3A 20
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 16 F6 50 10 27 F6 53 D2 00 00
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 F6 9E AB 16 F9 50 10 28 00 C6 62 00 00 31 30 2E 30 2E
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 16 FB 50 10 27 F1 53 D2 00 00
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 16 FB 9E AB 16 F9 50 10 28 00 E8 82 00 00 30 2E 31 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 17 00 50 10 27 EC 53 D2 00 00
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 00 9E AB 16 F9 50 10 28 00 3C DB 00 00 43 6F 6E 6E 65
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 17 05 50 10 27 E7 53 D2 00 00
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 05 9E AB 16 F9 50 10 28 00 18 D0 00 00 63 74 69 6F 6E
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 17 0A 50 10 27 E2 53 D2 00 00
+RX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 0A 9E AB 16 F9 50 10 28 00 67 22 00 00 3A 20 43 6C 6F
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 5 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 17 0F 50 10 27 DD 53 D2 00 00
+RX: 45 00 00 2C 00 00 00 00 40 06 66 CA 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 0F 9E AB 16 F9 50 10 28 00 D3 3B 00 00 73 65 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 4 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 17 13 50 10 27 D9 53 D2 00 00
+Read '/*
+Host: 10.0.0.1
+Connection: Close
+' from tcp
+RX: 45 00 00 2A 00 00 00 00 40 06 66 CC 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 13 9E AB 16 F9 50 10 28 00 46 9F 00 00 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 2 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 17 15 50 10 27 FE 53 AB 00 00
+Read '
+' from tcp
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 F9 9E AB 17 15 50 10 28 00 87 FF 00 00 48 54 54 50 2F
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Restrict by CWND
+Write 'HTTP/1.1 200 OK
+' to tcp
+|* Retransmission *|
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 16 FE 50 10 27 FB 53 A9 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 10 ssthresh = 40
+retransmission queue size = 0
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 16 FE 9E AB 17 15 50 10 28 00 BF 50 00 00 31 2E 31 20 32
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 03 9E AB 17 15 50 10 28 00 B8 1A 00 00 30 30 20 4F 4B
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 2
+Restrict by CWND
+Write 'Content-Length: 13
+' to tcp
+|* Retransmission *|
+|* Retransmission *|
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 03 50 10 27 FB 53 A4 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 15 ssthresh = 40
+retransmission queue size = 1
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 08 50 10 27 F6 53 A4 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 20 ssthresh = 40
+retransmission queue size = 0
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 08 9E AB 17 15 50 10 28 00 95 1B 00 00 0D 0A 43 6F 6E
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 0D 9E AB 17 15 50 10 28 00 43 B6 00 00 74 65 6E 74 2D
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 2
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 12 9E AB 17 15 50 10 28 00 24 BE 00 00 4C 65 6E 67 74
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 3
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 17 9E AB 17 15 50 10 28 00 98 1A 00 00 68 3A 20 31 33
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 4
+Restrict by CWND
+Write 'Content-Type: text/plain; charset=utf-8
+' to tcp
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 0D 50 10 27 FB 53 9A 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 25 ssthresh = 40
+retransmission queue size = 3
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 12 50 10 27 F6 53 9A 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 30 ssthresh = 40
+retransmission queue size = 2
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 17 50 10 27 F1 53 9A 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 35 ssthresh = 40
+retransmission queue size = 1
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 1C 50 10 27 EC 53 9A 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 40 ssthresh = 40
+TCP Reno state transitioned from SLOW_START to CONGESTION_AVOIDANCE
+retransmission queue size = 0
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 1C 9E AB 17 15 50 10 28 00 95 07 00 00 0D 0A 43 6F 6E
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 21 9E AB 17 15 50 10 28 00 43 A2 00 00 74 65 6E 74 2D
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 2
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 26 9E AB 17 15 50 10 28 00 54 98 00 00 54 79 70 65 3A
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 3
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 2B 9E AB 17 15 50 10 28 00 59 85 00 00 20 74 65 78 74
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 4
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 30 9E AB 17 15 50 10 28 00 4E 9B 00 00 2F 70 6C 61 69
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 5
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 35 9E AB 17 15 50 10 28 00 5C C9 00 00 6E 3B 20 63 68
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 6
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 3A 9E AB 17 15 50 10 28 00 0A 8B 00 00 61 72 73 65 74
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 7
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 3F 9E AB 17 15 50 10 28 00 74 82 00 00 3D 75 74 66 2D
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 8
+Restrict by CWND
+Write '
+' to tcp
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 21 50 10 27 FB 53 86 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 7
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 26 50 10 27 F6 53 86 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 6
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 2B 50 10 27 F1 53 86 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 5
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 30 50 10 27 EC 53 86 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 4
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 35 50 10 27 E7 53 86 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 3
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 3A 50 10 27 E2 53 86 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 2
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 3F 50 10 27 DD 53 86 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 1
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 44 50 10 27 D8 53 86 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+congestion avoidance: cwnd = 45 ssthresh = 40
+retransmission queue size = 0
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 44 9E AB 17 15 50 10 28 00 07 3F 00 00 38 0D 0A 0D 0A
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 49 9E AB 17 15 50 10 28 00 2F 82 00 00 48 65 6C 6C 6F
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 2
+Sending segment of len 5 to remote
+TX: 45 00 00 2D 00 00 00 00 40 06 66 C9 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 4E 9E AB 17 15 50 10 28 00 57 85 00 00 20 57 6F 72 6C
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 3
+Sending segment of len 3 to remote
+TX: 45 00 00 2B 00 00 00 00 40 06 66 CB 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 53 9E AB 17 15 50 10 28 00 E5 2A 00 00 64 21 0A
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 4
+Write 'Hello World!
+' to tcp
+Closing socket 1
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 56 00 00 00 00 50 01 28 00 09 1C 00 00
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 5
+TCP state transitioned from ESTABLISHED to FIN_WAIT_1
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 49 50 10 27 FB 53 5E 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 4
+TCP state transitioned from FIN_WAIT_1 to FIN_WAIT_2
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 4E 50 10 27 F6 53 5E 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 3
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 53 50 10 27 F1 53 5E 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 2
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 56 50 10 27 EE 53 5E 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 1
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 9E AB 17 57 50 10 27 EE 53 5D 00 00
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 0
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 B4 73 00 50 9E AB 17 15 00 00 00 00 50 01 28 00 09 5D 00 00
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 B4 73 9E AB 17 57 9E AB 17 16 50 10 28 00 53 4A 00 00
+TCP state transitioned from FIN_WAIT_2 to TIME_WAIT
+TCP state transitioned from TIME_WAIT to TIME_WAIT
+|* Time Wait *|

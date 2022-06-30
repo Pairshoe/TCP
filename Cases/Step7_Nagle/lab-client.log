@@ -1,0 +1,130 @@
+Local IP is 10.0.0.2
+Remote IP is 10.0.0.1
+Using local addr: c
+Using remote addr: s
+Saving packets to lab-client.pcap
+TCP state transitioned from CLOSED to SYN_SENT
+TX: 45 00 00 2C 00 00 00 00 40 06 66 CA 0A 00 00 02 0A 00 00 01 9C 43 00 50 C3 1B 14 84 00 00 00 00 60 02 28 00 E7 F0 00 00 02 04 05 B4
+|* Push Retransmission Queue *|
+retransmission queue size = 1
+Writing http response body to /Users/legend/Desktop/tcp-lab/index.html
+RX: 45 00 00 2C 00 00 00 00 40 06 66 CA 0A 00 00 01 0A 00 00 02 00 50 9C 43 C3 1B 14 B1 C3 1B 14 85 60 12 28 00 10 13 00 00 02 04 05 B4
+Remote MSS is 1460
+|* Pop Retransmission Queue *|
+|* Pop ! *|
+retransmission queue size = 0
+TCP state transitioned from SYN_SENT to ESTABLISHED
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 9C 43 00 50 C3 1B 14 85 C3 1B 14 B2 50 10 28 00 27 D0 00 00
+|* Retransmission *|
+|* Enter Nagle *|
+bytes_to_send: 26
+nagle_buffer_size: 26
+|* Nagle Saved 26 *|
+Write 'GET /index.html HTTP/1.1
+' to tcp
+|* Nagle *|
+|* Enter Nagle *|
+bytes_to_send: 13
+nagle_buffer_size: 39
+|* Nagle Saved 39 *|
+Write 'Accept: */*
+' to tcp
+|* Nagle *|
+|* Enter Nagle *|
+bytes_to_send: 16
+nagle_buffer_size: 55
+|* Nagle Clear *|
+nagle_buffer_size: 55
+remote_mss: 1460
+segment_len: 55
+Sending segment of len 55 to remote
+TX: 45 00 00 5F 00 00 00 00 40 06 66 97 0A 00 00 02 0A 00 00 01 9C 43 00 50 C3 1B 14 85 C3 1B 14 B2 50 10 28 00 F5 8D 00 00 47 45 54 20 2F 69 6E 64 65 78 2E 68 74 6D 6C 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 48 6F 73 74 3A 20 31 30 2E 30 2E 30 2E 31 0D 0A
+|* Push Retransmission Queue *|
+retransmission queue size = 1
+Write 'Host: 10.0.0.1
+' to tcp
+|* Nagle *|
+|* Retransmission *|
+current_ms = 64634135
+start_ms = 64634135
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 9C 43 C3 1B 14 B2 C3 1B 14 BC 50 10 27 C9 27 D0 00 00
+|* Pop Retransmission Queue *|
+|* Pop ! *|
+retransmission queue size = 0
+|* Enter Nagle *|
+bytes_to_send: 19
+nagle_buffer_size: 19
+|* Nagle Saved 19 *|
+Write 'Connection: Close
+' to tcp
+|* Nagle *|
+|* Enter Nagle *|
+bytes_to_send: 2
+nagle_buffer_size: 21
+|* Nagle Saved 21 *|
+Write '
+' to tcp
+|* Nagle *|
+|* Nagle *|
+|* Nagle Clear *|
+nagle_buffer_size: 21
+remote_mss: 1460
+segment_len: 21
+Sending segment of len 21 to remote
+TX: 45 00 00 3D 00 00 00 00 40 06 66 B9 0A 00 00 02 0A 00 00 01 9C 43 00 50 C3 1B 14 BC C3 1B 14 B2 50 10 28 00 C6 50 00 00 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 43 6C 6F 73 65 0D 0A 0D 0A
+|* Push Retransmission Queue *|
+retransmission queue size = 1
+|* Retransmission *|
+current_ms = 64634935
+start_ms = 64634935
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 9C 43 C3 1B 14 B2 C3 1B 14 D1 50 10 27 EB 27 99 00 00
+|* Pop Retransmission Queue *|
+|* Pop ! *|
+retransmission queue size = 0
+|* Nagle *|
+|* Nagle *|
+|* Nagle *|
+|* Retransmission *|
+RX: 45 00 00 4D 00 00 00 00 40 06 66 A9 0A 00 00 01 0A 00 00 02 00 50 9C 43 C3 1B 14 B2 C3 1B 14 D1 50 10 28 00 55 66 00 00 48 54 54 50 2F 31 2E 31 20 32 30 30 20 4F 4B 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 31 33 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 37 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 9C 43 00 50 C3 1B 14 D1 C3 1B 14 D7 50 10 27 DB 27 84 00 00
+RX: 45 00 00 51 00 00 00 00 40 06 66 A5 0A 00 00 01 0A 00 00 02 00 50 9C 43 C3 1B 14 D7 C3 1B 14 D1 50 10 28 00 A5 50 00 00 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 74 65 78 74 2F 70 6C 61 69 6E 3B 20 63 68 61 72 73 65 74 3D 75 74 66 2D 38 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 41 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 9C 43 00 50 C3 1B 14 D1 C3 1B 15 00 50 10 27 B2 27 84 00 00
+Read 'HTTP/1.1 200 OK
+Content-Length: 13
+Content-Type: text/plain; charset=utf-8
+' from tcp
+RX: 45 00 00 37 00 00 00 00 40 06 66 BF 0A 00 00 01 0A 00 00 02 00 50 9C 43 C3 1B 15 00 C3 1B 14 D1 50 10 28 00 BE 2D 00 00 0D 0A 48 65 6C 6C 6F 20 57 6F 72 6C 64 21 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 15 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 9C 43 00 50 C3 1B 14 D1 C3 1B 15 0F 50 10 27 F1 27 36 00 00
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 9C 43 C3 1B 15 0F 00 00 00 00 50 01 28 00 FF 22 00 00
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 9C 43 00 50 C3 1B 14 D1 C3 1B 15 10 50 10 27 F1 27 35 00 00
+TCP state transitioned from ESTABLISHED to CLOSE_WAIT
+Read '
+Hello World!
+' from tcp
+Content Length is 13
+|* Nagle Clear *|
+nagle_buffer_size: 0
+remote_mss: 1460
+segment_len: 0
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 9C 43 00 50 C3 1B 14 D1 00 00 00 00 50 01 28 00 FF 60 00 00
+|* Push Retransmission Queue *|
+retransmission queue size = 1
+TCP state transitioned from CLOSE_WAIT to LAST_ACK
+|* Retransmission *|
+current_ms = 64636435
+start_ms = 64636435
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 9C 43 C3 1B 15 10 C3 1B 14 D2 50 10 28 00 27 25 00 00
+|* Pop Retransmission Queue *|
+|* Pop ! *|
+retransmission queue size = 0
+TCP state transitioned from LAST_ACK to CLOSED
+Removing TCP connection fd=0

@@ -1,0 +1,145 @@
+Local IP is 10.0.0.2
+Remote IP is 10.0.0.1
+Using local addr: c
+Using remote addr: s
+Saving packets to lab-client.pcap
+TCP state transitioned from CLOSED to SYN_SENT
+TX: 45 00 00 3C 00 00 00 00 40 06 66 BA 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 82 BA 00 00 00 00 A0 02 28 00 92 40 00 00 02 04 05 B4 01 01 08 0A 0C 2A 6B 04 00 00 00 00 01 03 03 06
+full_ack = 3781984955
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Writing http response body to /Users/legend/Desktop/tcp-lab/index.html
+RX: 45 00 00 3C 00 00 00 00 40 06 66 BA 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 82 E1 E1 6C 82 BB A0 12 28 00 B6 B2 00 00 02 04 05 B4 01 01 08 0A 0C 2A 6B 04 0C 2A 6B 04 01 03 03 06
+Remote MSS is 1460
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+retransmission queue size = 0
+TCP state transitioned from SYN_SENT to ESTABLISHED
+TX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 82 BB E1 6C 82 E2 80 10 28 00 E2 7B 00 00 01 01 08 0A 0C 2A 6B 05 0C 2A 6B 04
+|* Retransmission *|
+Sending segment of len 26 to remote
+TX: 45 00 00 4E 00 00 00 00 40 06 66 A8 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 82 BB E1 6C 82 E2 80 10 28 00 29 C8 00 00 01 01 08 0A 0C 2A 6E EC 0C 2A 6B 04 47 45 54 20 2F 69 6E 64 65 78 2E 68 74 6D 6C 20 48 54 54 50 2F 31 2E 31 0D 0A
+full_ack = 3781984981
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Restrict by CWND
+Write 'GET /index.html HTTP/1.1
+' to tcp
+|* Retransmission *|
+RX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 82 E2 E1 6C 82 D5 80 10 27 E6 DA AC 00 00 01 01 08 0A 0C 2A 6E EC 0C 2A 6E EC
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 2920 ssthresh = 11680
+retransmission queue size = 0
+Sending segment of len 13 to remote
+TX: 45 00 00 41 00 00 00 00 40 06 66 B5 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 82 D5 E1 6C 82 E2 80 10 28 00 2C 88 00 00 01 01 08 0A 0C 2A 6F 50 0C 2A 6E EC 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A
+full_ack = 3781984994
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Write 'Accept: */*
+' to tcp
+|* Retransmission *|
+RX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 82 E2 E1 6C 82 E2 80 10 27 F3 D9 CA 00 00 01 01 08 0A 0C 2A 6F 50 0C 2A 6F 50
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 4380 ssthresh = 11680
+retransmission queue size = 0
+Sending segment of len 16 to remote
+TX: 45 00 00 44 00 00 00 00 40 06 66 B2 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 82 E2 E1 6C 82 E2 80 10 28 00 1A 7A 00 00 01 01 08 0A 0C 2A 6F B4 0C 2A 6F 50 48 6F 73 74 3A 20 31 30 2E 30 2E 30 2E 31 0D 0A
+full_ack = 3781985010
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Write 'Host: 10.0.0.1
+' to tcp
+|* Retransmission *|
+RX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 82 E2 E1 6C 82 F2 80 10 27 F0 D8 F5 00 00 01 01 08 0A 0C 2A 6F B4 0C 2A 6F B4
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 5840 ssthresh = 11680
+retransmission queue size = 0
+Sending segment of len 19 to remote
+TX: 45 00 00 47 00 00 00 00 40 06 66 AF 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 82 F2 E1 6C 82 E2 80 10 28 00 81 48 00 00 01 01 08 0A 0C 2A 70 18 0C 2A 6F B4 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 43 6C 6F 73 65 0D 0A
+full_ack = 3781985029
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Write 'Connection: Close
+' to tcp
+|* Retransmission *|
+RX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 82 E2 E1 6C 83 05 80 10 27 ED D8 1D 00 00 01 01 08 0A 0C 2A 70 18 0C 2A 70 18
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 7300 ssthresh = 11680
+retransmission queue size = 0
+Sending segment of len 2 to remote
+TX: 45 00 00 36 00 00 00 00 40 06 66 C0 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 83 05 E1 6C 82 E2 80 10 28 00 CA 9A 00 00 01 01 08 0A 0C 2A 70 7C 0C 2A 70 18 0D 0A
+full_ack = 3781985031
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+Write '
+' to tcp
+|* Retransmission *|
+RX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 82 E2 E1 6C 83 07 80 10 27 FE D7 42 00 00 01 01 08 0A 0C 2A 70 7C 0C 2A 70 7C
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 8760 ssthresh = 11680
+retransmission queue size = 0
+RX: 45 00 00 45 00 00 00 00 40 06 66 B1 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 82 E2 E1 6C 83 07 80 10 28 00 13 4D 00 00 01 01 08 0A 0C 2A 74 99 0C 2A 70 7C 48 54 54 50 2F 31 2E 31 20 32 30 30 20 4F 4B 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 17 bytes from server
+TX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 83 07 E1 6C 82 F3 80 10 27 EF CF 06 00 00 01 01 08 0A 0C 2A 74 99 0C 2A 74 99
+Read 'HTTP/1.1 200 OK
+' from tcp
+RX: 45 00 00 48 00 00 00 00 40 06 66 AE 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 82 F3 E1 6C 83 07 80 10 28 00 9B 6B 00 00 01 01 08 0A 0C 2A 74 FD 0C 2A 74 99 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 31 33 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 20 bytes from server
+TX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 83 07 E1 6C 83 07 80 10 27 EC CE 2D 00 00 01 01 08 0A 0C 2A 74 FD 0C 2A 74 FD
+Read 'Content-Length: 13
+' from tcp
+RX: 45 00 00 5D 00 00 00 00 40 06 66 99 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 83 07 E1 6C 83 07 80 10 28 00 4B A7 00 00 01 01 08 0A 0C 2A 75 61 0C 2A 74 FD 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 74 65 78 74 2F 70 6C 61 69 6E 3B 20 63 68 61 72 73 65 74 3D 75 74 66 2D 38 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 41 bytes from server
+TX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 83 07 E1 6C 83 30 80 10 27 D7 CD 51 00 00 01 01 08 0A 0C 2A 75 61 0C 2A 75 61
+Read 'Content-Type: text/plain; charset=utf-8
+' from tcp
+RX: 45 00 00 36 00 00 00 00 40 06 66 C0 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 83 30 E1 6C 83 07 80 10 28 00 BF B8 00 00 01 01 08 0A 0C 2A 75 C5 0C 2A 75 61 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 2 bytes from server
+TX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 83 07 E1 6C 83 32 80 10 27 FE CC 60 00 00 01 01 08 0A 0C 2A 75 C5 0C 2A 75 C5
+Read '
+' from tcp
+Content Length is 13
+RX: 45 00 00 41 00 00 00 00 40 06 66 B5 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 83 32 E1 6C 83 07 80 10 28 00 6F FE 00 00 01 01 08 0A 0C 2A 76 29 0C 2A 75 C5 48 65 6C 6C 6F 20 57 6F 72 6C 64 21 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 13 bytes from server
+TX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 83 07 E1 6C 83 3F 80 10 27 F3 CB 96 00 00 01 01 08 0A 0C 2A 76 29 0C 2A 76 29
+RX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 83 3F 00 00 00 00 80 01 28 00 30 71 00 00 01 01 08 0A 0C 2A 76 29 0C 2A 75 C5
+TX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 83 07 E1 6C 83 40 80 10 27 F3 CB 95 00 00 01 01 08 0A 0C 2A 76 29 0C 2A 76 29
+TCP state transitioned from ESTABLISHED to CLOSE_WAIT
+Read 'Hello World!
+' from tcp
+TX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 02 0A 00 00 01 A1 19 00 50 E1 6C 83 07 00 00 00 00 80 01 28 00 30 16 00 00 01 01 08 0A 0C 2A 76 58 0C 2A 76 29
+full_ack = 3781985032
+|* Push Retransmission Queue *|
+|* Push Packet *|
+retransmission queue size = 1
+TCP state transitioned from CLOSE_WAIT to LAST_ACK
+|* Retransmission *|
+RX: 45 00 00 34 00 00 00 00 40 06 66 C2 0A 00 00 01 0A 00 00 02 00 50 A1 19 E1 6C 83 40 E1 6C 83 08 80 10 28 00 CB 29 00 00 01 01 08 0A 0C 2A 76 58 0C 2A 76 58
+|* Pop Retransmission Queue *|
+|* Pop Packet *|
+slow start: cwnd = 10220 ssthresh = 11680
+retransmission queue size = 0
+TCP state transitioned from LAST_ACK to CLOSED
+|* Retransmission *|
+Removing TCP connection fd=0

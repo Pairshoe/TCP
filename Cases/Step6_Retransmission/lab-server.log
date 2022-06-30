@@ -1,0 +1,175 @@
+Local IP is 10.0.0.1
+Remote IP is 10.0.0.2
+Rend drop rate is now 0.500000
+Using local addr: s
+Using remote addr: c
+Saving packets to lab-server.pcap
+TCP state transitioned from CLOSED to LISTEN
+Listening on 80 port
+RX: 45 00 00 2C 00 00 00 00 40 06 66 CA 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 01 00 00 00 00 60 02 28 00 3A 62 00 00 02 04 05 B4
+Remote MSS is 1460
+TX: 45 00 00 2C 00 00 00 00 40 06 66 CA 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 24 73 2C F2 02 60 12 28 00 D4 FF 00 00 02 04 05 B4
+|* Push Retransmission Queue *|
+retransmission queue size = 1
+TCP state transitioned from CLOSED to SYN_RCVD
+|* Retransmission *|
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 02 73 2C F2 25 50 10 28 00 EC BC 00 00
+Recv packet dropped
+Got new TCP connection: fd=1
+RX: 45 00 00 42 00 00 00 00 40 06 66 B4 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 02 73 2C F2 25 50 10 28 00 37 F0 00 00 47 45 54 20 2F 69 6E 64 65 78 2E 68 74 6D 6C 20 48 54 54 50 2F 31 2E 31 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+TCP state transitioned from SYN_RCVD to ESTABLISHED
+Received 26 bytes from server
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 25 73 2C F2 1C 50 10 27 E6 EC BC 00 00
+Read 'GET /index.html HTTP/1.1
+' from tcp
+RX: 45 00 00 35 00 00 00 00 40 06 66 C1 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 1C 73 2C F2 25 50 10 28 00 3E FC 00 00 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A
+Recv packet dropped
+RX: 45 00 00 38 00 00 00 00 40 06 66 BE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 29 73 2C F2 25 50 10 28 00 2D B6 00 00 48 6F 73 74 3A 20 31 30 2E 30 2E 30 2E 31 0D 0A
+Recv packet dropped
+RX: 45 00 00 3B 00 00 00 00 40 06 66 BB 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 39 73 2C F2 25 50 10 28 00 95 4C 00 00 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 43 6C 6F 73 65 0D 0A
+Recv packet dropped
+RX: 45 00 00 2A 00 00 00 00 40 06 66 CC 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4C 73 2C F2 25 50 10 28 00 DF 66 00 00 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 2 bytes from server
+|* Push Out of Order Queue *|
+out_of_order queue size = 1
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 25 73 2C F2 1C 50 10 28 00 EC A2 00 00
+RX: 45 00 00 35 00 00 00 00 40 06 66 C1 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 1C 73 2C F2 25 50 10 28 00 3E FC 00 00 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 13 bytes from server
+|* Reorder *|
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 25 73 2C F2 29 50 10 27 F3 EC A2 00 00
+Read 'Accept: */*
+' from tcp
+RX: 45 00 00 38 00 00 00 00 40 06 66 BE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 29 73 2C F2 25 50 10 28 00 2D B6 00 00 48 6F 73 74 3A 20 31 30 2E 30 2E 30 2E 31 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 16 bytes from server
+|* Reorder *|
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 25 73 2C F2 39 50 10 27 F0 EC 95 00 00
+RX: 45 00 00 3B 00 00 00 00 40 06 66 BB 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 39 73 2C F2 25 50 10 28 00 95 4C 00 00 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 43 6C 6F 73 65 0D 0A
+Recv packet dropped
+RX: 45 00 00 2A 00 00 00 00 40 06 66 CC 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4C 73 2C F2 25 50 10 28 00 DF 66 00 00 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 2 bytes from server
+|* Push Out of Order Queue *|
+out_of_order queue size = 2
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 25 73 2C F2 39 50 10 27 F0 EC 95 00 00
+Read 'Host: 10.0.0.1
+' from tcp
+RX: 45 00 00 3B 00 00 00 00 40 06 66 BB 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 39 73 2C F2 25 50 10 28 00 95 4C 00 00 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 43 6C 6F 73 65 0D 0A
+Recv packet dropped
+RX: 45 00 00 2A 00 00 00 00 40 06 66 CC 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4C 73 2C F2 25 50 10 28 00 DF 66 00 00 0D 0A
+Recv packet dropped
+RX: 45 00 00 3B 00 00 00 00 40 06 66 BB 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 39 73 2C F2 25 50 10 28 00 95 4C 00 00 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 43 6C 6F 73 65 0D 0A
+|* Pop Retransmission Queue *|
+retransmission queue size = 0
+Received 19 bytes from server
+|* Reorder *|
+out_of_order queue size = 1
+|* Reorder *|
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 25 73 2C F2 4E 50 10 27 EB EC 85 00 00
+RX: 45 00 00 2A 00 00 00 00 40 06 66 CC 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4C 73 2C F2 25 50 10 28 00 DF 66 00 00 0D 0A
+Recv packet dropped
+Read 'Connection: Close
+
+' from tcp
+Sending segment of len 17 to remote
+TX: 45 00 00 39 00 00 00 00 40 06 66 BD 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 25 73 2C F2 4E 50 10 28 00 2C 9A 00 00 48 54 54 50 2F 31 2E 31 20 32 30 30 20 4F 4B 0D 0A
+|* Push Retransmission Queue *|
+retransmission queue size = 1
+Write 'HTTP/1.1 200 OK
+' to tcp
+|* Retransmission *|
+current_ms = 59273182
+start_ms = 59273182
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4E 73 2C F2 36 50 10 27 EF EC 70 00 00
+Recv packet dropped
+Sending segment of len 20 to remote
+TX: 45 00 00 3C 00 00 00 00 40 06 66 BA 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 36 73 2C F2 4E 50 10 28 00 B9 39 00 00 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 31 33 0D 0A
+|* Push Retransmission Queue *|
+retransmission queue size = 2
+Write 'Content-Length: 13
+' to tcp
+|* Retransmission *|
+current_ms = 59273282
+start_ms = 59273182
+start_ms = 59273282
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4E 73 2C F2 4A 50 10 27 EC EC 5F 00 00
+|* Pop Retransmission Queue *|
+|* Pop ! *|
+retransmission queue size = 0
+Sending segment of len 41 to remote
+TX: 45 00 00 51 00 00 00 00 40 06 66 A5 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 4A 73 2C F2 4E 50 10 28 00 6A 3D 00 00 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 74 65 78 74 2F 70 6C 61 69 6E 3B 20 63 68 61 72 73 65 74 3D 75 74 66 2D 38 0D 0A
+|* Push Retransmission Queue *|
+retransmission queue size = 1
+Write 'Content-Type: text/plain; charset=utf-8
+' to tcp
+|* Retransmission *|
+current_ms = 59273382
+start_ms = 59273382
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4E 73 2C F2 73 50 10 27 D7 EC 4B 00 00
+Recv packet dropped
+Sending segment of len 2 to remote
+TX: 45 00 00 2A 00 00 00 00 40 06 66 CC 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 73 73 2C F2 4E 50 10 28 00 DF 16 00 00 0D 0A
+|* Push Retransmission Queue *|
+retransmission queue size = 2
+Write '
+' to tcp
+|* Retransmission *|
+current_ms = 59273482
+start_ms = 59273382
+start_ms = 59273482
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4E 73 2C F2 75 50 10 27 FE EC 22 00 00
+|* Pop Retransmission Queue *|
+|* Pop ! *|
+retransmission queue size = 0
+Sending segment of len 13 to remote
+TX: 45 00 00 35 00 00 00 00 40 06 66 C1 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 75 73 2C F2 4E 50 10 28 00 90 24 00 00 48 65 6C 6C 6F 20 57 6F 72 6C 64 21 0A
+|* Push Retransmission Queue *|
+retransmission queue size = 1
+Write 'Hello World!
+' to tcp
+Closing socket 1
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 82 00 00 00 00 50 01 28 00 51 9E 00 00
+|* Push Retransmission Queue *|
+retransmission queue size = 2
+TCP state transitioned from ESTABLISHED to FIN_WAIT_1
+|* Retransmission *|
+current_ms = 59273582
+start_ms = 59273582
+start_ms = 59273582
+|* Retransmission *|
+current_ms = 59273582
+start_ms = 59273582
+start_ms = 59273582
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4E 73 2C F2 82 50 10 27 F3 EC 20 00 00
+|* Pop Retransmission Queue *|
+|* Pop ! *|
+retransmission queue size = 1
+TCP state transitioned from FIN_WAIT_1 to FIN_WAIT_2
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4E 73 2C F2 83 50 10 27 F3 EC 1F 00 00
+|* Pop Retransmission Queue *|
+|* Pop ! *|
+retransmission queue size = 0
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4E 00 00 00 00 50 01 28 00 51 D2 00 00
+Recv packet dropped
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4E 00 00 00 00 50 01 28 00 51 D2 00 00
+Recv packet dropped
+RX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 02 0A 00 00 01 BC 43 00 50 73 2C F2 4E 00 00 00 00 50 01 28 00 51 D2 00 00
+TX: 45 00 00 28 00 00 00 00 40 06 66 CE 0A 00 00 01 0A 00 00 02 00 50 BC 43 73 2C F2 83 73 2C F2 4F 50 10 28 00 EC 11 00 00
+TCP state transitioned from FIN_WAIT_2 to TIME_WAIT
+TCP state transitioned from TIME_WAIT to TIME_WAIT
+|* Time Wait *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Retransmission *|
+|* Time Wait *|
